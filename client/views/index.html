@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="menuRoulette">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+</head>
+<body>
+	<div ng-controller="MainController">
+		
+		<input type="text" ng-model="name"> {{name}}
+		<button ng-click="setRoute('restaurants')">search</button>
+		<button ng-click="setRoute('')">home</button>
+		<div ng-view></div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-route.js"></script>
+	<script src="/js/app.js"></script>
+</body>
+</html>

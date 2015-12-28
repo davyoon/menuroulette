@@ -1,0 +1,21 @@
+{
+  "name": "menuroulette",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "fs": "0.0.2",
+    "jquery": "^2.1.4",
+    "method-override": "^2.3.5",
+    "request": "^2.67.0",
+    "require": "^2.4.20"
+  }
+}
